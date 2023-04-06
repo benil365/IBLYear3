@@ -1,12 +1,12 @@
 def main():
-    x=int(input("what is value of x?:"))     
-def mod(n):
-    if n % 2 == 0:
-          return True
-    else:
-          return False
+    x=int(input("what is the value of x:"))
     if mod(x):
-       print("even")
+        print ("even")
     else:
-      print("odd")
-main()
+        print("odd")
+def mod(n):
+      if n%2==0:
+            return True
+      else:
+            return False
+main()        
