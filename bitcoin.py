@@ -3,6 +3,7 @@
 # the number of Bitcoins and uses the `requests` library to make an HTTP GET request to the API. It
 # then parses the JSON response to extract the Bitcoin price and calculates the cost based on the
 # specified number of Bitcoins. Finally, it formats the cost as a string and prints it to the console.
+
 import sys
 import requests
 
